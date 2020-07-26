@@ -1,4 +1,4 @@
- <?php
+<?php
 
 require_once '../controller/manage_equipment_controller/equipment_con.php';	
 

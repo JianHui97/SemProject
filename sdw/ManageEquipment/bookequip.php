@@ -112,7 +112,7 @@ $view = $viewequipEMS->view();
   <?php echo "<td>".$row['equipment']."</td>"; ?>
   <?php echo "<td>".$row['price']."</td>"; ?>
   <?php echo "<td>".$row['quantity']."</td>"; ?>
-  <?php echo "</tr>"; ?>
+  <?php echo "</tr>"; ?>    
   <?php $i++;
   }
   ?>

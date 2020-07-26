@@ -31,6 +31,7 @@
              <li><a href="/sdw/ManageEvaluation/view/InsertJuryForm.php">Jury</a></li>
              <li><a href="/sdw/ManageEquipment/manage_equipment/viewequip.php">Equipment</a></li>
              <li><a href="/sdw/ManageBooth/View/BoothView.php">Booth</a></li>
+			 <li><a href="">Annoucement</a></li>
 			 <li><a href="http://localhost/sdw/ManageLogin/View/">Logout</a></li>
            </ul>
           </nav>

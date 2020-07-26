@@ -1,10 +1,14 @@
 <?php
 
-require_once '../controller/manage_equipment_controller/reserve_con.php';	
+require_once '../controller/manage_equipment_controller/equipment_con.php';	
 
-$viewequipEMS = new controller();
-$view = $viewequipEMS->view();
+if (isset($_POST['submit'])) {
+  $addequipEMS = new controller();
+  // call method dd
 
+  $addequipEMS->addequip();
+}
+  
 ?>
 
 <!DOCTYPE html>
@@ -81,61 +85,46 @@ $view = $viewequipEMS->view();
 
 <img src="icon-icecinno.png" alt="ice-cinno pic" width="1500" height="200">
 
-<form name=customer>
-  <table style="width:100%" id="table1">
+<form name="form" action="" method="POST">
+  <table style="width:100%">
   <tr>
     <td><a href="" target="_self">Home</a></td>
-    <td><a href="http://localhost/SDW/manage_equipment/bookequip.php" target="_self">Equipment</a></td>   
+    <td><a href="" target="_self">Jury</a></td>
+	<td><a href="http://localhost/SDW/manage_equipment/viewequip.php" target="_self">Equipment</a></td>
+	<td><a href="" target="_self">Booth</a></td>
 	<td><a href="" target="_self">Logout</a></td>
   </tr>
   </table>
   
-  <h2>BOOKING EQUIPMENT</h2>
+  <h2>MANAGE EQUIPMENT</h2>
   
-  <h4>View Equipment</h4>
+  <h4>Add Equipment</h4>
   
   <table style="width:80%">
-  <tr>
-    <th>NO.</th>
-	<th>Equipment ID</th>
-    <th>Equipment</th>
+  <tr>  
+    <th>Equipment ID</th>
+	<th>Equipment</th>
     <th>Price</th>
     <th>Quantity</th>
   </tr>
-  <?php
-  $i=1;
-  foreach($view as $row)
-  { ?>
-  <?php echo "<tr>"; ?>
-  <?php echo "<td>".$i."</td>"; ?>
-  <?php echo "<td>".$row['id']."</td>"; ?>
-  <?php echo "<td>".$row['equipment']."</td>"; ?>
-  <?php echo "<td>".$row['price']."</td>"; ?>
-  <?php echo "<td>".$row['quantity']."</td>"; ?>
-  <?php echo "</tr>"; ?>
-  <?php $i++;
-  }
-  ?>
+  <tr>
+	<td><input type="text" name="id" id="input" required></td>
+    <td><input type="text" name="equipment" id="input" required></td>
+    <td><input type="text" name="price" id="input" required></td>
+    <td><input type="text" name="quantity" id="input" required></td>
+  </tr>
   </table>
   
+  <br><br>
+  <center><input type="submit" name="submit" value="ADD" id="add"><center>
 </form> 
 
-<br>
-
-<form action="cart.php" method="post"> 
-<input type="submit" value="BOOKING CART">
-</form>
-
-<form action="reserveequip.php" method="post"> 
-<input type="submit" value="RESERVE">
-</form>
 
 <br>
 
-<center><form action="http://localhost/SDW/New%20folder/customer.php" method="post"> 
-<input type="submit" value="BACK">
+<center><form action="viewequip.php" method="post"> 
+<input type="submit" value="BACK" id="add">
 </form></center>
-
 
 
 </body>

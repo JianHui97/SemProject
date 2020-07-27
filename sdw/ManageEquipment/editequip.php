@@ -121,7 +121,6 @@ if (isset($_POST['submit'])) {
   
 </form> 
 
-
 <br>
 
 <center><form action="viewequip.php" method="post"> 

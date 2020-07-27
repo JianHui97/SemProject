@@ -28,7 +28,7 @@ include ('../Controller/EvaluationController.php');
 						<th>Group Name</th>
 						<th>Innovation Product</th>
 						<th>Mark</th>
-						<th>Remark</th>
+						<th>Comments</th>
 						<th>Evaluate By</th>
 						<th></th>
 					</tr>

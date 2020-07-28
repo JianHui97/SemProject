@@ -218,7 +218,6 @@ $resultset = $p -> viewdetail();
  
  
 $todayDate = date("Y-m-d");// current date
-//Add one month to today
 $dateOneMonthAdded = strtotime(date("Y-m-d", strtotime($todayDate)) . "+1 month");
 echo date('l dS \o\f F Y', $dateOneMonthAdded);
  

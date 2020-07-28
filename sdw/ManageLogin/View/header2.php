@@ -26,10 +26,11 @@
           <nav>
             <ul class="sf-menu">
             <li class="current"><a href="index.php">Home</a></li>
-	     <li><a href="/sdw/ManageEvaluation/view/InsertJuryForm.php">Jury</a></li>
-             <li><a href="/sdw/ManageEquipment/manage_equipment/viewequip.php">Equipment</a></li>
+			<li><a href="/sdw/ManageEvaluation/view/InsertJuryForm.php">CreateJury</a></li>
+             <li><a href="/sdw/ManageEvaluation/view/ResultView.php">Evaluation</a></li>
+             <li><a href="/sdw/ManageEquipment/equipment.php">Equipment</a></li>
              <li><a href="/sdw/ManageBooth/View/BoothView.php">Booth</a></li>
-             <li><a href="http://localhost/sdw/ManageLogin/View/">Logout</a></li>
+             <li><a href="/sdw/ManagePayment/View/Payment_Detail.php">Payment</a></li>
            </ul>
           </nav>
       

@@ -4,7 +4,7 @@
 <title>Home</title>
 <?php 
 	include("head.php"); 
-	include("header2.html");
+	include("header.html");
 	include ('../Controller/EvaluationController.php');
 ?>
 

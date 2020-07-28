@@ -28,12 +28,10 @@
           <nav>
             <ul class="sf-menu">
              <li class="current"><a href="BoothView.php">Home</a></li>
-             <li><a href="/sdw/ManageEvaluation/view/InsertJuryForm.php">Jury</a></li>
-             <li><a href="/sdw/ManageEquipment/manage_equipment/viewequip.php">Equipment</a></li>
-             <li><a href="/sdw/ManageBooth/View/BoothView.php">Booth</a></li>
-			 <li><a href="">Annoucement</a></li>
-			 <li><a href="">Payment</a></li>
-			 <li><a href="http://localhost/sdw/ManageLogin/View/">Logout</a></li>
+             <li><a href="BoothView.php">Booth</a></li>
+             <li><a href="index-2.html">Services</a></li>
+             <li><a href="index-3.html">Blog</a></li>
+             <li><a href="index-4.html">Contacts</a></li>
            </ul>
           </nav>
       

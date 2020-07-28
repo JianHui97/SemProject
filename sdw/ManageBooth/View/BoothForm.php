@@ -6,7 +6,7 @@
 	$participants_id = $_GET['pid'];
 		$query = "SELECT * FROM participants WHERE ParticipantID='$participants_id' ";
 		$result = mysqli_query($conn,$query);
-		$rows = mysqli_fetch_row($result);
+		$rows = mysqli_fetch_row($result);	
 
 		if (isset($_POST['done'])) {
 			$insert = new BoothController();
@@ -18,15 +18,15 @@
 <html>
 <head>
 	<title>Booth</title>
-	<?php
-		include("head.php");
+	<?php 
+		include("head.php"); 
 		include("head2.php");
-	?>
+	?>	
 	<style>
 	p{
 		position: absolute;
 		right: 5px;
-
+		
 	}
 	.button {
 	  display: inline-block;
@@ -104,8 +104,6 @@
 				<tr><td>-----------</td><td>  -----------      </td></tr>
 				<tr>
 					<td><input type="submit" class="button" name="done" value="Done"></td>
-					<td><input type="submit" class="button" name="reset" value="Reset"></td>
-
 					<td><input type="button" class="button2" value="Cancel" onclick="window.location.href='BoothView.php'"></td>
 				</tr>
 
@@ -119,7 +117,7 @@
 			?>
 		<br>
 		</footer>
-
+		
 	</div>
 
 

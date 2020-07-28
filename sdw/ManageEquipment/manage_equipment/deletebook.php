@@ -15,8 +15,7 @@ if (isset($_POST['submit'])) {
 <!DOCTYPE html>
 <html>
 
-
-	
+<head>
 <style>
 table, td , th{
   border: 1px solid black;
@@ -49,7 +48,6 @@ body {
 }
 </style>
 </head>
-
 
 <body>
 

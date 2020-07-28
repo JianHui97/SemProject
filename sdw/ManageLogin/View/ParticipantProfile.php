@@ -9,7 +9,7 @@
 	<div class="wrapper">
 	<header class="header">
 		<?php 
-			include("header.php");
+			include("pheader.php");
 			
 		;?>
 	</header>

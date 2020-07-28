@@ -2,29 +2,29 @@
 	require 'connection.php';
 	include '../Controller/BoothController.php';
 	mysqli_select_db($conn, "ims");
-	
+
 	 if(isset($_REQUEST['bid'])){
 		session_start();
 		$_SESSION['bid']= $_GET['bid'];
 		$delete = new BoothController();
 		$delete->delete($_SESSION['bid']);
-		
-	} 
+
+	}
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Booth</title>
-	<?php 
-		include("head.php"); 
+	<?php
+		include("head.php");
 		include("head2.php");
-	?>	
+	?>
 	<style>
 	p{
 		position: absolute;
 		right: 5px;
-		
+
 	}
 	.button {
   display: inline-block;
@@ -121,19 +121,19 @@
 			<br>
 			<h2>All occupied booths</h2>
 			<?php
-				$query="SELECT booth.BoothID, 
+				$query="SELECT booth.BoothID,
 					booth.BoothLocation,
-					booth.ParticipantID, 
-					participants.GroupName, 
+					booth.ParticipantID,
+					participants.GroupName,
 					participants.InnovationProduct
 					FROM booth
-					INNER JOIN participants 
-					ON booth.ParticipantID = participants.ParticipantID;"; 
-				
+					INNER JOIN participants
+					ON booth.ParticipantID = participants.ParticipantID;";
+
 				$result=mysqli_query($conn,$query);
 				if($result == FALSE)
 				{die(mysqli_error($conn));}
-			
+
 					echo'<table class="table table-hover>';
 					echo'<tr class="table-active">';
 					echo'<th>Booth ID</th>';
@@ -147,21 +147,21 @@
 					while($row=mysqli_fetch_assoc($result))
 					{
 						echo"<tr>
-		
+
 						<td>".$row['BoothID']."</td>
 						<td>".$row['BoothLocation']."</td>
 						<td>".$row['ParticipantID']."</td>
 						<td>".$row['GroupName']."</td>
 						<td>".$row['InnovationProduct']."</td>"
 			?>
-						<td><input type="button" class="button2" value="Update" onclick="window.location.href='BoothUpdateForm.php?bid=<?php echo $row['BoothID'] ?>&bloc=<?php echo $row['BoothLocation']?>&pid=<?php echo $row['ParticipantID']?>'"></td>
+						
 						<td><input type="button" class="button3" name="delete" value="Delete" onclick="window.location.href='BoothView.php?bid=<?php echo $row['BoothID'] ?>'"></td>
 						</tr>
-					<?php 
+					<?php
 					}
 					echo '</table>';
 					?>
-				
+
 		<footer class="footer">
 		<br>
 			<?php
@@ -169,7 +169,7 @@
 			?>
 		<br>
 		</footer>
-		
+
 	</div>
 
 

@@ -104,7 +104,8 @@
 				<tr><td>-----------</td><td>  -----------      </td></tr>
 				<tr>
 					<td><input type="submit" class="button" name="done" value="Done"></td>
-					td><input type="submit" class="button" name="reset" value="Reset"></td>
+					<td><input type="submit" class="button" name="reset" value="Reset"></td>
+
 					<td><input type="button" class="button2" value="Cancel" onclick="window.location.href='BoothView.php'"></td>
 				</tr>
 

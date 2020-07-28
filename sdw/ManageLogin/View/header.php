@@ -25,7 +25,7 @@
         <div class="navigation ">
           <nav>
             <ul class="sf-menu">
-             <li class="current"><a href="index.php">Houses</a></li>
+             <li class="current"><a href="index.php">Home</a></li>
              <li><a href="index.php">Services</a></li>
              <li><a href="index.php">About</a></li>
              <li><a href="index.php">Contact</a></li>

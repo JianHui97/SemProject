@@ -31,6 +31,7 @@
              <li><a href="/sdw/ManageEquipment/equipment.php">Equipment</a></li>
              <li><a href="/sdw/ManageBooth/View/BoothView.php">Booth</a></li>
              <li><a href="/sdw/ManagePayment/View/Payment_Detail.php">Payment</a></li>
+	     <li><a href="http://localhost/sdw/ManageLogin/View/">Logout</a></li>    
            </ul>
           </nav>
       

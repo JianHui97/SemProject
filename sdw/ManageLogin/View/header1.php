@@ -30,7 +30,6 @@
              <li><a href="/evaluation2/view/EvaluationForm.php">Evaluation</a></li>
              <li><a href="index-2.html">Equipment</a></li>
              <li><a href="index-3.html">Booth</a></li>
-             <li><a href="index-4.html">Payment</a></li>
            </ul>
           </nav>
       

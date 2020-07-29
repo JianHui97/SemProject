@@ -228,7 +228,10 @@ echo date('l dS \o\f F Y', $dateOneMonthAdded);
 
 <form action="http://localhost/SDWProject2019(ICE-CINNO)/View/Payment_Form.php" method="post">
       
-     >
+      <tr>
+        <td><a href="index.php"><input type="button" class="e" name="cancel" value="Cancel"></a></td>
+        <td><input type="submit" class="e" name="submit" value="Confirm"></td>
+      </tr>
 
 </form>      
 

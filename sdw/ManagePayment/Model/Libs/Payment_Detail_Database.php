@@ -2,7 +2,7 @@
 
 require_once 'Payment_Detail_Config.php';
 
-class database
+class newdatabase
 {
 
 	public static function connect($value='')

@@ -79,6 +79,13 @@ $resultset = $p -> viewreceipt();
   height:50px;
   }
   
+  .c{
+  font-style: normal;
+  font-size: 20px;
+  text-align:left;
+  width: 150px;
+  height: 30px;
+  }
 
   .d{
   padding: 10px 18px;

@@ -19,17 +19,5 @@ class paymentreceipt
 <?php
 require_once '../Model/Payment_Detail_Model.php';
 
-class paymentdetail
-{
 
-	public function viewdetail()
-	{
-
-		$details = new modeldetail();
-
-		$resultset = $details->pp();
-		return $resultset;
-	}
-
-}
 ?>

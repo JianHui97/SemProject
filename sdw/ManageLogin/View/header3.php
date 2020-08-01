@@ -26,7 +26,8 @@
           <nav>
             <ul class="sf-menu">
             <li class="current"><a href="index.php">Home</a></li>
-             <li><a href="/evaluation2/view/EvaluationForm.php">Evaluation</a></li>
+             <li><a href="/sdw/ManageEvaluation/view/EvaluationForm.php"">Evaluation</a></li>
+            <li><a href="http://localhost/sdw/ManageLogin/View/">Logout</a></li>   
            </ul>
           </nav>
       

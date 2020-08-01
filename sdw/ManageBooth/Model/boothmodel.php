@@ -1,5 +1,5 @@
 <?php
-    require 'connection.php';
+    requir 'connection.php';
 	mysqli_select_db($conn, "ims");
 
 

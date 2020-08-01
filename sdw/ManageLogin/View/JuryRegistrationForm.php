@@ -20,7 +20,6 @@
 			else  {
 				document.getElementById("register").disabled = true;
 			}
-
 		}
 	</script>
 </head>

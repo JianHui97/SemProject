@@ -32,7 +32,6 @@
              <li><a href="index-3.html">Booth</a></li>
            </ul>
           </nav>
-      
           <div class="clear"></div>
       </div> </div>
       </div>

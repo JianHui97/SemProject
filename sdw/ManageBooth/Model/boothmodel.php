@@ -1,5 +1,5 @@
 <?php
-    requir 'connection.php';
+    require 'connection.php';
 	mysqli_select_db($conn, "ims");
 
 
@@ -39,7 +39,7 @@
 
 		function newbooth($participantsid, $boothlocation){
 			global $conn;
-			$add = "INSET INTO booth (BoothLocation,ParticipantID)VALUES('$boothlocation','$participantsid')";
+			$add = "INSERT INTO booth ('BoothLocation','ParticipantID')VALUES('$boothlocation','$participantsid')";
 			$result = mysqli_query($conn, $add);
 			return $result;
 		}

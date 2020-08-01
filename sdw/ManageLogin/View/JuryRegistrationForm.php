@@ -69,7 +69,6 @@
 			?>
 		<br>
 		</footer>
-		
 	</div>
 
 <script>

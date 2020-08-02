@@ -70,7 +70,6 @@
 		<br>
 		</footer>
 	</div>
-
 <script>
   var password = document.getElementById("password")
   var confirm_password = document.getElementById("cfmpassword");

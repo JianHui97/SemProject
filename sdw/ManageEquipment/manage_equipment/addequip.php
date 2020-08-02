@@ -120,13 +120,11 @@ if (isset($_POST['submit'])) {
   <center><input type="submit" name="submit" value="ADD" id="add"><center>
 </form> 
 
-
 <br>
 
 <center><form action="viewequip.php" method="post"> 
 <input type="submit" value="BACK" id="add">
 </form></center>
-
 
 </body>
 </html>

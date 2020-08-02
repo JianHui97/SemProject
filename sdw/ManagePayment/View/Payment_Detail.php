@@ -161,7 +161,7 @@ $resultset = $p -> viewdetail();
 </tr> 
 
 <tr>
-<td class="a">Participant Name </td>
+
 <td class="a"> : </td>
 <td class="a"><?php echo ($ParticipantName[$i]); ?></td>
 </tr> 

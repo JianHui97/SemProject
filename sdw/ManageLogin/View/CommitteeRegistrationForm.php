@@ -85,7 +85,6 @@
 			?>
 		<br>
 		</footer>
-		
 	</div>
 
 <script>

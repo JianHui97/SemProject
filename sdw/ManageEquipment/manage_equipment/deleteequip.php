@@ -12,52 +12,72 @@ if (isset($_POST['submit'])) {
 ?>
 
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-	
+<title>Equipment Approval</title>
+<?php include("head.php"); ?>
+<meta charset="utf-8">
+<meta name = "format-detection" content = "telephone=no" />
+<link rel="icon" href="images1/favicon.ico">
+<link rel="shortcut icon" href="images1/favicon.ico" />
+<link rel="stylesheet" href="css/camera.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/stuck.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/script.js"></script> 
+<script src="js/superfish.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/tmStickUp.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/owl.carousel.js"></script>
+
 <style>
-table, td , th{
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-td {
-  padding: 15px;
-}
-a:link {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-#add {
-  background-color: white; 
-  color: black; 
-  padding: 5px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 13px;
-  margin: 4px 2px;
-  background-color: #c3c3c3;
-}
-
-#input {
-  background-color: white; 
-  color: black; 
-  padding: 5px 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 10px;
-  margin: 4px 2px;
-  background-color: #c3c3c3;
-}
   
+  .a{ 
 
-body {
-  background-color: #ffffff;
-}
+  font-style: normal;
+  font-size: 28px;
+  text-align:left;
+  width:150px;
+  height:50px;
+  }
+  
+  .b{ 
+
+  font-style: normal;
+  font-size: 28px;
+  font-weight:bold;
+  text-align:left;
+  width:150px;
+  height:50px;
+  }
+  
+  .c{
+  font-style: normal;
+  font-size: 20px;
+  text-align:left;
+  width: 150px;
+  height: 30px;
+  }
+
+  .d{
+  padding: 10px 18px;
+  text-align: center;  
+  font-size: 15px;
+  cursor: pointer;
+  }
+
+  .e{ 
+  padding: 10px 38px;
+  text-align: center;  
+  font-size: 15px;
+  cursor: pointer;
+  } 
+  
 </style>
 </head>
 

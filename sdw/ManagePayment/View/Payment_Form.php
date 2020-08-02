@@ -153,12 +153,6 @@
       <td class="a"><input name="CVV" type="text" class="b" maxlength="3" required></input></td>
       </tr>
 
-      <tr>
-      <td class="a">Expiry Date</td>
-      <td class="a"> : </td>
-      <td class="a"><input name="ExpiryDate" type="month" class="b" required></input></td>
-      </tr>
-
       <tr> 
       <td><br><button type="Reset" value="reset" class="e">Reset</button></td>
       <td><br><button type="submit" name="submit" value="submit" class="e">Confirm</button></td>

@@ -73,13 +73,6 @@ $resultset = $p -> viewdetail();
   height:50px;
   }
   
-  .c{
-  font-style: normal;
-  font-size: 20px;
-  text-align:left;
-  width: 150px;
-  height: 30px;
-  }
 
   .d{
   padding: 10px 18px;
@@ -218,7 +211,6 @@ $resultset = $p -> viewdetail();
  
  
 $todayDate = date("Y-m-d");// current date
-//Add one month to today
 $dateOneMonthAdded = strtotime(date("Y-m-d", strtotime($todayDate)) . "+1 month");
 echo date('l dS \o\f F Y', $dateOneMonthAdded);
  

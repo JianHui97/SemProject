@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 -- Table structure for table `booth`
 --
 
-CREATE TABLE `booth` (
+CRTE TABLE `booth` (
   `BoothID` int(11) NOT NULL,
   `BoothLocation` varchar(10) NOT NULL,
   `ParticipantID` int(11) NOT NULL
@@ -38,7 +38,7 @@ CREATE TABLE `booth` (
 -- Dumping data for table `booth`
 --
 
-INSERT INTO `booth` (`BoothID`, `BoothLocation`, `ParticipantID`) VALUES
+IERT TO `booth` (`BoothID`, `BoothLocation`, `ParticipantID`) VALUES
 (10, 'A', 1);
 
 -- --------------------------------------------------------
@@ -47,7 +47,7 @@ INSERT INTO `booth` (`BoothID`, `BoothLocation`, `ParticipantID`) VALUES
 -- Table structure for table `committee`
 --
 
-CREATE TABLE `committee` (
+CREATE TBLE `committee` (
   `CommitteeID` int(11) NOT NULL,
   `Name` varchar(30) NOT NULL,
   `Age` int(11) NOT NULL,
@@ -59,10 +59,10 @@ CREATE TABLE `committee` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `committee`
+-- Dumping ta for table `committee`
 --
 
-INSERT INTO `committee` (`CommitteeID`, `Name`, `Age`, `Gender`, `Contact`, `Username`, `Email`, `Password`) VALUES
+INSERT ITO `committee` (`CommitteeID`, `Name`, `Age`, `Gender`, `Contact`, `Username`, `Email`, `Password`) VALUES
 (1, 'jiayi', 22, 'Female', 124568932, 'jyjy123', 'jyjy@gmail.com', '123456jy'),
 (2, 'kiki', 25, 'Male', 12375896, 'kiki999', 'kiki@mail.com', 'kiki889'),
 (3, 'kiki', 25, 'Male', 123456789, 'kiki999', 'kiki@mail.com', 'kiki8889'),
@@ -85,7 +85,7 @@ INSERT INTO `committee` (`CommitteeID`, `Name`, `Age`, `Gender`, `Contact`, `Use
 -- Table structure for table `creditcard`
 --
 
-CREATE TABLE `creditcard` (
+CREATE TAE `creditcard` (
   `PaymentID` int(11) NOT NULL,
   `CreditCardNumber` int(20) NOT NULL,
   `ExpiryDate` varchar(30) NOT NULL,
@@ -99,7 +99,7 @@ CREATE TABLE `creditcard` (
 -- Table structure for table `equipment`
 --
 
-CREATE TABLE `equipment` (
+CREABLE `equipment` (
   `ParticipantName` varchar(50) NOT NULL,
   `ParticipantID` int(11) NOT NULL,
   `ParticipantEmail` varchar(50) NOT NULL,
@@ -115,7 +115,7 @@ CREATE TABLE `equipment` (
 -- Dumping data for table `equipment`
 --
 
-INSERT INTO `equipment` (`ParticipantName`, `ParticipantID`, `ParticipantEmail`, `HpNo`, `EquipmentID`, `EquipmentType`, `Quantity`, `DateToUse`, `EquipmentStatus`) VALUES
+INSERT INO `equiment` (`ParticipantName`, `ParticipantID`, `ParticipantEmail`, `HpNo`, `EquipmentID`, `EquipmentType`, `Quantity`, `DateToUse`, `EquipmentStatus`) VALUES
 ('michelle', 100, 'sxdsd@gmail.com', 123879563, 1, '002 Chair', 4, '2019-12-12', 'Reject'),
 ('tommy', 102, 'tommy@gmail.com', 123456789, 2, '001 Table', 1, '2019-12-19', 'Approve'),
 ('tommy', 102, 'tommy@gmail.com', 123456789, 3, '001 Table', 4, '2019-12-19', 'Approve');
